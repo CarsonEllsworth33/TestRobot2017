@@ -42,3 +42,6 @@ void ShooterSub::InitDefaultCommand() {
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
 
+void ShooterSub::Shoot(float speed){
+	//shooterTalon->set(speed);
+}

@@ -45,4 +45,7 @@ void DriveBaseSub::InitDefaultCommand() {
 
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
-
+void DriveBaseSub::MecanumDrive(float X, float Y, float Rot, float gyro)
+{
+	robotDrive->MecanumDrive_Cartesian(X,Y,Rot,gyro);
+}
