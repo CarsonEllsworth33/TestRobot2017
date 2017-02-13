@@ -43,5 +43,5 @@ void ShooterSub::InitDefaultCommand() {
 // here. Call these from Commands.
 
 void ShooterSub::Shoot(float speed){
-	//shooterTalon->set(speed);
+	shooterMotor->Set(speed);
 }
